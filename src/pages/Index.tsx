@@ -34,7 +34,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold font-heading text-primary">Кулинарный Мастер-Класс</h1>
+            <h1 className="text-2xl font-bold font-heading text-primary">УВЕЛКА | Мастер-Класс</h1>
             <div className="hidden md:flex gap-8">
               <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors font-medium">Главная</button>
               <button onClick={() => scrollToSection('about')} className="text-foreground hover:text-primary transition-colors font-medium">О событии</button>
@@ -50,12 +50,15 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-slide-up">
+              <div className="inline-block bg-primary text-white px-4 py-2 rounded-lg font-bold text-sm mb-4">
+                УВЕЛКА
+              </div>
               <h2 className="text-5xl md:text-6xl font-bold font-heading text-foreground leading-tight">
-                Откройте мир вкуса
-                <span className="block text-primary mt-2">вместе с нами! 🍲</span>
+                Мастер-класс от
+                <span className="block text-primary mt-2">лучшего технолога! 🍲</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Уникальный мастер-класс по приготовлению гречневой каши с мясом от профессионального шеф-повара
+                Уникальный опыт приготовления легендарной гречневой каши с мясом от профессионала с 15-летним стажем
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button onClick={() => scrollToSection('register')} size="lg" className="text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105">
@@ -69,8 +72,8 @@ const Index = () => {
             <div className="relative animate-scale-in">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-3xl blur-2xl opacity-20"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/a535fed0-c211-4424-8df2-4c831fdf5f3c.jpg" 
-                alt="Кулинарный мастер-класс" 
+                src="https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg" 
+                alt="Кулинарный мастер-класс УВЕЛКА" 
                 className="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover"
               />
             </div>
@@ -92,7 +95,7 @@ const Index = () => {
                   <Icon name="ChefHat" size={32} className="text-primary" />
                 </div>
                 <h3 className="text-xl font-bold font-heading">Профессиональный шеф</h3>
-                <p className="text-muted-foreground">Обучение от мастера с 15-летним опытом работы в ресторанах высокой кухни</p>
+                <p className="text-muted-foreground">Обучение от лучшего технолога УВЕЛКА с 15-летним опытом</p>
               </CardContent>
             </Card>
 
@@ -167,12 +170,12 @@ const Index = () => {
           
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/babe738a-1719-4622-9b64-fdcfd1aa2d1d.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/a535fed0-c211-4424-8df2-4c831fdf5f3c.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/1129d388-5857-4b5e-ac39-327b4a96746d.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/babe738a-1719-4622-9b64-fdcfd1aa2d1d.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/1129d388-5857-4b5e-ac39-327b4a96746d.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/a535fed0-c211-4424-8df2-4c831fdf5f3c.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/e413dfb5-57ac-41eb-a0b2-4c3c97849ec0.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/e413dfb5-57ac-41eb-a0b2-4c3c97849ec0.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/e413dfb5-57ac-41eb-a0b2-4c3c97849ec0.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg",
             ].map((img, idx) => (
               <div key={idx} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <img 
@@ -305,8 +308,8 @@ const Index = () => {
 
       <footer className="bg-foreground text-white py-12 px-4">
         <div className="container mx-auto max-w-6xl text-center">
-          <h3 className="text-2xl font-bold font-heading mb-4">Кулинарный Мастер-Класс</h3>
-          <p className="text-white/70 mb-6">Откройте мир вкуса вместе с нами</p>
+          <h3 className="text-2xl font-bold font-heading mb-4">УВЕЛКА | Мастер-Класс</h3>
+          <p className="text-white/70 mb-6">Откройте мир вкуса вместе с лучшим технологом</p>
           <div className="flex justify-center gap-6">
             <Button variant="ghost" size="icon" className="text-white hover:text-primary hover:bg-white/10">
               <Icon name="Instagram" size={24} />
@@ -319,7 +322,7 @@ const Index = () => {
             </Button>
           </div>
           <div className="mt-8 pt-8 border-t border-white/20">
-            <p className="text-white/60 text-sm">© 2024 Кулинарный Мастер-Класс. Все права защищены.</p>
+            <p className="text-white/60 text-sm">© 2024 УВЕЛКА. Все права защищены.</p>
           </div>
         </div>
       </footer>
