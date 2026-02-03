@@ -72,7 +72,7 @@ const Index = () => {
             <div className="relative animate-scale-in">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-3xl blur-2xl opacity-20"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/8adde67a-b266-4b1c-9185-05c396d73614.jpg" 
+                src="https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/bucket/4ebb5d03-dbf8-486f-bde5-bb3401b89d8e.jpeg" 
                 alt="Технолог УВЕЛКА на мастер-классе" 
                 className="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover"
               />
