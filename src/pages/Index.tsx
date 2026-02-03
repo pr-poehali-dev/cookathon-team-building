@@ -54,11 +54,11 @@ const Index = () => {
                 УВЕЛКА
               </div>
               <h2 className="text-5xl md:text-6xl font-bold font-heading text-foreground leading-tight">
-                Мастер-класс от
-                <span className="block text-primary mt-2">лучшего технолога! 🍲</span>
+                Мастер-класс по приготовлению
+                <span className="block text-primary mt-2">лучшей гречки на свете! 🌾</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Уникальный опыт приготовления легендарной гречневой каши с мясом от профессионала с 15-летним стажем
+                От лучшего технолога УВЕЛКА — узнайте все секреты идеальной гречневой каши с мясом
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button onClick={() => scrollToSection('register')} size="lg" className="text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105">
@@ -72,8 +72,8 @@ const Index = () => {
             <div className="relative animate-scale-in">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-3xl blur-2xl opacity-20"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg" 
-                alt="Кулинарный мастер-класс УВЕЛКА" 
+                src="https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/8adde67a-b266-4b1c-9185-05c396d73614.jpg" 
+                alt="Технолог УВЕЛКА на мастер-классе" 
                 className="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover"
               />
             </div>
@@ -94,8 +94,8 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
                   <Icon name="ChefHat" size={32} className="text-primary" />
                 </div>
-                <h3 className="text-xl font-bold font-heading">Профессиональный шеф</h3>
-                <p className="text-muted-foreground">Обучение от лучшего технолога УВЕЛКА с 15-летним опытом</p>
+                <h3 className="text-xl font-bold font-heading">Лучший технолог УВЕЛКА</h3>
+                <p className="text-muted-foreground">Женщина-профессионал с 15-летним опытом научит готовить лучшую гречку</p>
               </CardContent>
             </Card>
 
@@ -170,11 +170,11 @@ const Index = () => {
           
           <div className="grid md:grid-cols-3 gap-6">
             {[
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/857f6919-fe89-4df7-8254-9cbad8bfd4e6.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/8adde67a-b266-4b1c-9185-05c396d73614.jpg",
               "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/e413dfb5-57ac-41eb-a0b2-4c3c97849ec0.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/e413dfb5-57ac-41eb-a0b2-4c3c97849ec0.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/e413dfb5-57ac-41eb-a0b2-4c3c97849ec0.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/857f6919-fe89-4df7-8254-9cbad8bfd4e6.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/8adde67a-b266-4b1c-9185-05c396d73614.jpg",
               "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg",
             ].map((img, idx) => (
               <div key={idx} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
@@ -184,7 +184,7 @@ const Index = () => {
                   className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                  <p className="text-white font-semibold text-lg">Кулинарное искусство</p>
+                  <p className="text-white font-semibold text-lg">Гречка УВЕЛКА</p>
                 </div>
               </div>
             ))}
