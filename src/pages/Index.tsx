@@ -170,12 +170,12 @@ const Index = () => {
           
           <div className="grid md:grid-cols-3 gap-6">
             {[
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/bucket/48539091-0a7f-4a57-aca9-67337baad330.jpeg",
               "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/857f6919-fe89-4df7-8254-9cbad8bfd4e6.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/8adde67a-b266-4b1c-9185-05c396d73614.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/bucket/4ebb5d03-dbf8-486f-bde5-bb3401b89d8e.jpeg",
               "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/e413dfb5-57ac-41eb-a0b2-4c3c97849ec0.jpg",
+              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/bucket/48539091-0a7f-4a57-aca9-67337baad330.jpeg",
               "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/857f6919-fe89-4df7-8254-9cbad8bfd4e6.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/8adde67a-b266-4b1c-9185-05c396d73614.jpg",
-              "https://cdn.poehali.dev/projects/95baa52c-6025-4060-b398-7435ddc5da11/files/f310e191-e9a7-4563-8f3d-e80f913ae523.jpg",
             ].map((img, idx) => (
               <div key={idx} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <img 
